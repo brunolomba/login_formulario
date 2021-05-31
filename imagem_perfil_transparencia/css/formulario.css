@@ -1,0 +1,153 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../images/fundo.jpg) no-repeat top center;
+	background-size: cover;
+	min-height: 835px;
+}
+
+#container {
+	width: 50%;
+	max-width: 500px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.2);
+	-webkit-border-radius: 10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+}
+
+#container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	font-size: 16px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border-radius: 10px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email {
+	background-image: url(images/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(images/icone-cadeado.png);
+}
+
+input.submit {
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	cursor: pointer;
+
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+/* Registr-se e Esqueceu a Senha *
+*/
+.container {
+	width: 100%;
+	height: 360px;
+	background-color: rgba(255,255,255,0.2);
+	-webkit-border-radius: 10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+}
+
+.opcoes {
+	width: 100%;
+	margin: 68px auto 40px;
+	text-align: center;
+}
+
+.opcoes div {
+	width: 100%;
+	display: inline;
+}
+
+.opcoes a {
+	margin: 0px 20px;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #643d87;
+}
+
+.registrar a:hover {
+	background-color: #643d87;
+	color: #f79300;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.senha a:hover {
+	background-color: #f47c2c;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+/* Caixa de Observações *
+*/
+
+.configuracao {
+	width: 100%;
+	margin: 30px auto;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	text-align: left;
+}
+
+h3 {
+	padding: 20px;
+	margin-bottom: -10px;
+}
+
+li {
+	width: 95%
+}
+
+
+div.configuracao:hover {
+	background-color: rgba(247, 147, 0, 0.7);
+	color: #fff;
+}
+
+div.configuracao:hover ul {
+  list-style-color: #643d87;
+}
+
+div.configuracao:hover h3{
+	color: #fff;
+	background-color: #643d87;
+	border-radius: 10px 10px 0 0;
+
+}
+
+/* Media query *
+*/
+@media screen and (min-height:1920px) {
+	body {
+		min-height: 100%;
+	}
+}
